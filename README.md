@@ -1,4 +1,4 @@
-# MixedReality Development on Hololens AR
+# Blueprint Accelerator: Mixed Reality with HoloLens and Dynamics 365
 
 ## Overview
 This is an accelerator for connecting and displaying data from Dynamics 365 in a Microsoft HoloLens application. This accelerator code is intended for experimentation and exploration to help shortcut the time developers spend to set up the data pipeline and access. Accelerator code originally developed by Ray Wu (Blueprint Alumni).
