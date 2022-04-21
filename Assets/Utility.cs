@@ -72,8 +72,8 @@ public class Utility
         var aadInstance = "https://login.microsoftonline.com/{0}/oauth2/token";
         var clientId = "97d1b795-4af5-469f-9d76-458c85aa6833";
         var clientSecret = "9jIOFrgXcTzFlGSSVQEwVzuAb04mbp9mgerm3CzWBhA=";
-        var resource = "https://bpcs-sandbox.crm.dynamics.com";
-        var tenant = "bpcs.com";//"12e2dd65-5024-44c2-83b5-3ca21c04ef0e";
+        var resource = ""; //enter the root dynamics url here i.e bpcs-sandbox.crm.dynamics.com
+        var tenant = "";//enter tenant here i.e bpcs.com;
         var authority = "https://login.microsoftonline.com/" + tenant;
 
         var token = GetBearerToken(
@@ -85,7 +85,7 @@ public class Utility
                 resource
             );
         
-        var uri = "https://bpcs-sandbox.crm.dynamics.com/api/data/v9.0/accounts/?$filter=name eq 'BlackRock'";
+        var uri = ""; //enter search URI here i.e. https://bpcs-sandbox.crm.dynamics.com/api/data/v9.0/accounts/?$filter=name eq 'BlackRock'
         var method = "GET";
         var contentType = "";
         var header = "";
