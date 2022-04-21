@@ -22,7 +22,7 @@ public static class Constants
     public const string flaseValue = "false";
     public const string WWWAuthenticate = "WWW - Authenticate";
     public const string AADAuthEndpoint = "AADAuthEndpoint";
-    public const string Anonymous = ""; //"demonstrate@bpcs.com"; // for VM: @"bpcs\validate"
+    public const string Anonymous = ""; //"example includes demonstrate@bpcs.com"; // for VM: @"bpcs\validate"
     public const string passwordEncryped = "encrypted";
     public const string clientAppIdName = "client:AppId";
     public const string clientAppKeyName = "client:AppKey";
