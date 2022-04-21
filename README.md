@@ -28,9 +28,9 @@ This is an accelerator for connecting and displaying data from Dynamics 365 in a
    The new app will be deployed to Remote Devices (HoloLens)
    
 ## Demonstration
-1) Install the Microsoft HoloLens windows app on your laptop/desktop. 
+1) Install the Microsoft HoloLens windows app on your laptop/desktop. This will allow a live stream of what you view in the HoloLens to other people from your laptop/desktop.
 
-2) Connect to Hololens. This will allow a live stream of what you view in the HoloLens to other people from your laptop/desktop.
+2) Connect to Hololens. 
 
 3. Launch the CRM app from the HoloLens
 
